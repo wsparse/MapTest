@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+          android:id="@+id/common"
+          android:showAsAction="ifRoom"
+          android:title="common"
+          android:orderInCategory="100"
+       ></item>
+    <item
+        android:id="@+id/weixing"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        android:title="weixing">
+    </item>
+    <item
+        android:id="@+id/traffic"
+        android:showAsAction="ifRoom"
+        android:title="实时交通（off）"
+        android:orderInCategory="100">
+    </item>
+
+    <item
+        android:id="@+id/location_to"
+        android:showAsAction="ifRoom"
+        android:title="定位到"
+        android:orderInCategory="100"></item>
+
+   <item
+       android:id="@+id/common_mode"
+       android:orderInCategory="100"
+       android:showAsAction="never"
+       android:title="常规模式"
+    ></item>
+  <item
+      android:id="@+id/follow_mode"
+      android:orderInCategory="100"
+      android:showAsAction="never"
+      android:title="跟随模式"
+      ></item>
+   <item
+       android:id="@+id/compass_mode"
+       android:orderInCategory="100"
+       android:showAsAction="never"
+       android:title="罗盘模式"
+       ></item>
+    <item
+        android:id="@+id/add_overlay"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="添加图层"></item>
+
+    <item
+        android:id="@+id/draw_line"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="绘制路线轨迹"></item>
+</menu>
