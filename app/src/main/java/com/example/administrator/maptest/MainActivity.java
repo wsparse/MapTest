@@ -32,7 +32,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements BDLocationListener {
     MapView mapView; //tgttghhhhhhhhhnn
-    
+    int a =10;
     BaiduMap baiduMap;  //百度地图
     LocationClient mLocationClient; //定位客户端
     LocationClientOption mLocationClientOption; //定位客户端参数
