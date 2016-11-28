@@ -31,8 +31,8 @@ import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity implements BDLocationListener {
-
-    MapView mapView; //视图
+    MapView mapView; //tgttghhhhhhhhhnn
+    
     BaiduMap baiduMap;  //百度地图
     LocationClient mLocationClient; //定位客户端
     LocationClientOption mLocationClientOption; //定位客户端参数
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements BDLocationListene
 
     private void initView() {
         mapView = (MapView) findViewById(R.id.mapview);
-       /* mapView.showScaleControl(false);//设置是否显示比例尺
+       /* mapView.showScaleControl(false);//设置是否显fdsdfs示比例尺5555
         mapView.showZoomControls(false);//设置是否显示缩放比例
         mapView.removeViewAt(1); //移除百度地图图标
 */
